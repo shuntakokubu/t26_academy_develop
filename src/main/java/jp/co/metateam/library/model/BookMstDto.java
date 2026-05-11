@@ -3,6 +3,7 @@ package jp.co.metateam.library.model;
 import java.security.Timestamp;
 
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,7 +21,10 @@ public class BookMstDto {
 
     private String title;
     
-    private Timestamp deletedAt;
+    private String author;
+
+    private Timestamp createdAt;
 
     private BookMst bookMst;
+
 }
