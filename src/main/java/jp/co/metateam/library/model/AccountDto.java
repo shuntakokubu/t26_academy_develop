@@ -34,4 +34,6 @@ public class AccountDto {
     private String password;
 
     private Integer authorizationType = 1;
-}
+
+    }
+
